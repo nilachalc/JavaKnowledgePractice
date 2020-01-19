@@ -1,2 +1,2 @@
-# JavaKnowledgeTest
-A repository to practice Java coding
+JavaKnowledgePractice
+A Java Knowledge Practice Pitch
