@@ -11,11 +11,11 @@ public class HashMapDemo {
 		Map<Integer, String> hashMap1 = new HashMap<Integer, String>();
 		Map<Integer, String> hashMap2 = new HashMap<Integer, String>();
 
-		hashMap1.put(100,"Nil");    
-		hashMap1.put(101,"Mik");    
-		hashMap1.put(102,"Rana");   
+		hashMap1.put(102,"Rana");
+		hashMap1.put(101,"Mik");
+		hashMap1.put(100,"Nil");
 
-		// Traversing a list.
+		// Traversing a Map.
 		// First way.
 		for(Entry<Integer, String> e:hashMap1.entrySet()) {    
 			System.out.println(e.getKey()+" "+e.getValue());    

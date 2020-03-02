@@ -1,6 +1,6 @@
 package stringhandling;
 
-class StringTest{
+public class StringTest{
 	 public static void main(String args[]){
 	   String s = new String("Sachin");
 	   s = s.concat(" Tendulkar");
