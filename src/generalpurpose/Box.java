@@ -1,6 +1,4 @@
-package allaboutclasses;
-
-import java.awt.HeadlessException;
+package generalpurpose;
 
 public class Box {
 	private double height,width,length;

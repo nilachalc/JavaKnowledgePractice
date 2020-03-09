@@ -1,7 +1,5 @@
 package controlstatement;
 
-import java.io.PrintStream;
-
 public class SwitchCaseDemo {
 	public static void main(String []args) {
 		String s = "Oli";

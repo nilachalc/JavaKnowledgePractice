@@ -86,7 +86,7 @@ public class Experiance {
 		/* This is why we need override the hashcode method of the Object class as well, Otherwise if we override the eequals method only, then equality will hold good
 		 * only for single instance/object of the class but not for a collection(set, map etc.)*/
 		System.out.println("Set Example"); 
-        Iterator value = experiances.iterator(); 
+        Iterator<Experiance> value = experiances.iterator(); 
   
         while (value.hasNext()) { 
             System.out.println(value.next()); 
