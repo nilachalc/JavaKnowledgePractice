@@ -1,6 +1,6 @@
-package testbeans;
+package inheritanceexamples;
 
-public class Book {
+public class Box {
 	private Integer bookId;
 	private String author;
 	private String name; 
