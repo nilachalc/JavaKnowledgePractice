@@ -1,6 +1,6 @@
-package allaboutclasses;
+package generalpurpose;
 
-public class Test {
+public class ParamTest {
 
 	public static void main(String[] args) {
 		Box b1 = new Box();

@@ -1,4 +1,4 @@
-package allaboutclasses;
+package generalpurpose;
 
 import java.awt.HeadlessException;
 
