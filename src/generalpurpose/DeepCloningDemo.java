@@ -1,7 +1,5 @@
 package generalpurpose;
 
-import testbeans.Employee;
-
 public class DeepCloningDemo implements Cloneable {
 
 	private Integer association;

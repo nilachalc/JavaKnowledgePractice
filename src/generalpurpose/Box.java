@@ -1,7 +1,5 @@
 package generalpurpose;
 
-import java.awt.HeadlessException;
-
 public class Box {
 	private double height,width,length;
 	public void setVal(double h, double w, double l){
