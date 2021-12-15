@@ -6,12 +6,14 @@ public class ValuePassArrays {
 		for(int i = 0; i< age.length; i++) {
 			age[i] += 10;
 		}
+		System.out.println("from int");
 	}
 	
 	private void changeValue(Integer[] age) {
 		for(int i = 0; i< age.length; i++) {
 			age[i] += 10;
 		}
+		System.out.println("from integer");
 	}
 	
 	public static void main(String[] args) {
