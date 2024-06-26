@@ -10,7 +10,7 @@ public class FP02StreamOperations {
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 
-		List<Integer> numbers = Arrays.asList(12, 9, 13, 4, 6, 2, 4, 12, 15);
+		List<Integer> numbers = List.of(12, 9, 13, 4, 6, 2, 4, 12, 15);
 		
 		numbers.stream()
 			.distinct() //Stream<T> Intermediate
