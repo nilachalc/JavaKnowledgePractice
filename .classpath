@@ -6,6 +6,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/My Home/sts-4.23.1.RELEASE/lombok.jar"/>
+	<classpathentry kind="lib" path="C:/My Home/sts-bundle/sts-4.15.3/lombok.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
