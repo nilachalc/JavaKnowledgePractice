@@ -1,4 +1,4 @@
-package fubnctionalprogramming;
+package functionalprogramming;
 
 import java.math.BigInteger;
 import java.util.stream.IntStream;

@@ -1,4 +1,4 @@
-package fubnctionalprogramming;
+package functionalprogramming;
 
 import java.util.List;
 import java.util.function.BinaryOperator;
