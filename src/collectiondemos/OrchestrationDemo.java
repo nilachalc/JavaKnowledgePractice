@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.stream.Collectors;
 
 public class OrchestrationDemo {
 
@@ -42,7 +43,7 @@ public class OrchestrationDemo {
 					counter++;
 				}
 			}
-			if (counter == 1) {
+			if (counter >= 1) {
 				properGearIds.add(entry.getKey());
 			} else {
 				failingGearIds.add(entry.getKey());
@@ -58,5 +59,21 @@ public class OrchestrationDemo {
 		for (Integer integer : failingGearIds) {
 			System.out.print(integer + "  ");
 		}
+		
+		properGearIds = masterMap.entrySet().stream()
+                .filter(entry -> entry.getValue().stream().anyMatch(app -> app.contains("orchestration")))
+                .map(Map.Entry::getKey)
+                .collect(Collectors.toList());
+
+        failingGearIds = masterMap.entrySet().stream()
+                .filter(entry -> entry.getValue().stream().noneMatch(app -> app.contains("orchestration")))
+                .map(Map.Entry::getKey)
+                .collect(Collectors.toList());
+		
+        System.out.println();
+        System.out.println("The Proper Gear Ids are as follows:");
+        properGearIds.forEach(t -> System.out.println(t));
+        System.out.println("The failing Gear Ids are as follows:");
+        failingGearIds.forEach(t -> System.out.println(t));
 	}
 }

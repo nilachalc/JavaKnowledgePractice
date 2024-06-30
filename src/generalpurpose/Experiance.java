@@ -58,22 +58,27 @@ public class Experiance {
 		System.out.println(experiance1.toString() + " experiance1 --> Hashcode = " 
 				+ experiance1.hashCode() + experiance2.toString() + " experiance2 --> Hashcode = " 
 				+ experiance2.hashCode() + experiance1.equals(experiance2)); // False
+		System.out.println();
 		System.out.println(experiance2.toString() + " experiance2 --> Hashcode = " 
 				+ experiance2.hashCode() + experiance1.toString() + " experiance1 --> Hashcode = " 
 				+ experiance1.hashCode() + experiance2.equals(experiance1)); // False
+		System.out.println();
 		System.out.println(experiance3.toString() + " experiance3 --> Hashcode = " 
 				+ experiance3.hashCode() + experiance4.toString() + " experiance4 --> Hashcode = " 
 				+ experiance4.hashCode() + experiance3.equals(experiance4)); // False
+		System.out.println();
 		System.out.println(experiance4.toString() + " experiance4 --> Hashcode = " 
 				+ experiance4.hashCode() + experiance5.toString() + " experiance5 --> Hashcode = " 
 				+ experiance5.hashCode() + experiance4.equals(experiance5)); // False
+		System.out.println();
 		System.out.println(experiance5.toString() + " experiance5 --> Hashcode = " 
 				+ experiance5.hashCode() + experiance6.toString() + " experiance6 --> Hashcode = " 
 				+ experiance6.hashCode() + experiance5.equals(experiance6)); // True
+		System.out.println();
 		System.out.println(experiance1.toString() + " experiance1 --> Hashcode = " 
 				+ experiance1.hashCode() + experiance1.toString() + " experiance1 --> Hashcode = " 
 				+ experiance2.hashCode() + experiance1.equals(experiance1)); // True
-		
+		System.out.println();
 		Set<Experiance> experiances = new HashSet<Experiance>();
 		experiances.add(experiance1);
 		experiances.add(experiance2);
@@ -83,7 +88,7 @@ public class Experiance {
 		experiances.add(experiance6);
 		experiances.add(experiance1);
 		
-		/* This is why we need override the hashcode method of the Object class as well, Otherwise if we override the eequals method only, then equality will hold good
+		/* This is why we need override the hashcode method of the Object class as well, Otherwise if we override the equals method only, then equality will hold good
 		 * only for single instance/object of the class but not for a collection(set, map etc.)*/
 		System.out.println("Set Example"); 
         Iterator<Experiance> value = experiances.iterator(); 

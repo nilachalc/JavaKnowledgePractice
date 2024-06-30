@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import collectiondemos.comparators.EmployeeAgeComparator;
 import collectiondemos.comparators.EmployeeDepartmentIdComparator;
 import collectiondemos.comparators.EmployeeDepatmentNameComparetor;
 import collectiondemos.comparators.EmployeeNameComparator;
@@ -52,7 +51,9 @@ public class ComparatorDemo {
 		System.out.println(" :: END OF DATA ::");
 		System.out.println();
 		
-		Collections.sort(employees, new EmployeeAgeComparator());
+		Collections.sort(employees, (emp1, emp2) -> {
+			return emp1.getAge().compareTo(emp2.getAge());
+		}); 
 		
 		System.out.println("::After Sorting By Age::");
 		for(Employee employee : employees) {

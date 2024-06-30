@@ -14,7 +14,7 @@ public class TreeMapDemo {
 		hashMap1.put(102,"Rana");
 		hashMap1.put(101,"Mik");
 		hashMap1.put(100,"Nil");
-
+		
 		// Traversing a Map.
 		// First way.
 		for(Entry<Integer, String> e:hashMap1.entrySet()) {    
