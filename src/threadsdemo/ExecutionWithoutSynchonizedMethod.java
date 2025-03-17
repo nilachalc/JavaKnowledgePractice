@@ -13,7 +13,7 @@ class Line
 			System.out.println(i); 
 			try
 			{ 
-				Thread.sleep(400); 
+				Thread.sleep(500); 
 			} 
 			catch (Exception e) 
 			{ 

@@ -9,7 +9,7 @@ import java.util.ListIterator;
 public class LinkedListDemo {
 
 	public static void main(String[] args) {
-		List<String> list1 = new LinkedList<String>();
+		List<String> list1 = new LinkedList<>();
 		String[] arrays = {"Nil", "Dip", "Mik", "Rana", "Dim"};
 		String string1 = new String("string1");
 
@@ -26,12 +26,12 @@ public class LinkedListDemo {
 		// Remove elements.
 		list1.remove(1);
 		list1.remove(string1);
-		List<String> list2 = new LinkedList<String>();
+		List<String> list2 = new LinkedList<>();
 		list2.add("Dim");
 		list2.add("pachu");
 		list2.add("Dip");
 		list1.removeAll(list2);
-		List<String> list3 = new LinkedList<String>();
+		List<String> list3 = new LinkedList<>();
 		list3.add("Mik");
 		list3.add("Rana");
 		list1.retainAll(list3);

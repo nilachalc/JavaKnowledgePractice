@@ -1,6 +1,6 @@
 package testbeans;
 
-public class Dog implements  Comparable<Dog> {
+public class Dog implements Comparable<Dog> {
 	int age;
 
 	public Dog(int a) {

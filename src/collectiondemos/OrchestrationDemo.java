@@ -12,7 +12,7 @@ public class OrchestrationDemo {
 
 	public static void main(String[] args) {
 		
-		Map<Integer, List<String>> masterMap = new HashMap<Integer, List<String>>();
+		Map<Integer, List<String>> masterMap = new HashMap<>();
 		
 		String[] firstSetOfApps = {"app8", "app9", "app10-orchestration", "app11-orchestration"}; 
 		String[] secondSetOfApps = {"app4", "app5", "app6-orchestration", "app7"};
@@ -26,8 +26,8 @@ public class OrchestrationDemo {
 		List<String> fourthdAppsList = Arrays.asList(fourthSetOfApps);
 		List<String> fifthAppsList = Arrays.asList(fifthSetOfApps);
 		
-		List<Integer> properGearIds = new ArrayList<Integer>();
-		List<Integer> failingGearIds = new ArrayList<Integer>();
+		List<Integer> properGearIds = new ArrayList<>();
+		List<Integer> failingGearIds = new ArrayList<>();
 		
 		masterMap.put(1001, firstAppsList);
 		masterMap.put(1002, secondAppsList);

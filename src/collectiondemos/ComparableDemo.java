@@ -9,7 +9,7 @@ import testbeans.ComparableEmployee;
 public class ComparableDemo {
 	
 	public static void main(String[] args) {
-		List<ComparableEmployee> employees = new ArrayList<ComparableEmployee>();
+		List<ComparableEmployee> employees = new ArrayList<>();
 		
 		ComparableEmployee employee1 = new ComparableEmployee("Nilachal", 28);
 		ComparableEmployee employee2 = new ComparableEmployee("Ram", 28);

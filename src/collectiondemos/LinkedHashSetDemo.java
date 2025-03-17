@@ -8,7 +8,7 @@ import java.util.Set;
 public class LinkedHashSetDemo {
 
 	public static void main(String[] args) {
-		Set<String> set1 = new LinkedHashSet<String>();
+		Set<String> set1 = new LinkedHashSet<>();
 		String[] arrays = {"Nil", "Dip", "Mik", "Rana", "Dim"};
 		String string1 = new String("string1");
 
@@ -46,7 +46,7 @@ public class LinkedHashSetDemo {
 			System.out.print(s + "  ");    
 		}
 		
-		Set<String> set2 = new LinkedHashSet<String>();
+		Set<String> set2 = new LinkedHashSet<>();
 		set2.add("Dim");
 		set2.add("Dip");
 		set2.add("pachu");
@@ -63,7 +63,7 @@ public class LinkedHashSetDemo {
 			System.out.print(s + "  ");    
 		}
 		
-		Set<String> set3 = new LinkedHashSet<String>();
+		Set<String> set3 = new LinkedHashSet<>();
 		set3.add("Mik");
 		set3.add("Rana");
 		set1.retainAll(set3);

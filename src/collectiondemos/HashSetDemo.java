@@ -8,7 +8,7 @@ import java.util.Set;
 public class HashSetDemo {
 
 	public static void main(String[] args) {
-		Set<String> set1 = new HashSet<String>();
+		Set<String> set1 = new HashSet<>();
 		String[] arrays = {"Nil", "Dip", "Mik", "Rana", "Dim"};
 		String string1 = new String("string1");
 

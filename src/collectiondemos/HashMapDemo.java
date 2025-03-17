@@ -8,8 +8,8 @@ import java.util.Map.Entry;
 public class HashMapDemo {
 
 	public static void main(String[] args) {
-		Map<Integer, String> hashMap1 = new HashMap<Integer, String>();
-		Map<Integer, String> hashMap2 = new HashMap<Integer, String>();
+		Map<Integer, String> hashMap1 = new HashMap<>();
+		Map<Integer, String> hashMap2 = new HashMap<>();
 
 		hashMap1.put(102,"Rana");
 		hashMap1.put(101,"Mik");

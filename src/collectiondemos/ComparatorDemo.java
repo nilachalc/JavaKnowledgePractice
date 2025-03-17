@@ -14,7 +14,7 @@ public class ComparatorDemo {
 
 	public static void main(String[] args) {
 
-		List<Employee> employees = new ArrayList<Employee>();
+		List<Employee> employees = new ArrayList<>();
 		
 		Department department1 = new Department(1, "PPS");
 		Department department2 = new Department(2, "Insurance");

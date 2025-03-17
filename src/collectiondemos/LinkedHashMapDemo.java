@@ -8,8 +8,8 @@ import java.util.Map.Entry;
 public class LinkedHashMapDemo {
 
 	public static void main(String[] args) {
-		Map<Integer, String> hashMap1 = new LinkedHashMap<Integer, String>();
-		Map<Integer, String> hashMap2 = new LinkedHashMap<Integer, String>();
+		Map<Integer, String> hashMap1 = new LinkedHashMap<>();
+		Map<Integer, String> hashMap2 = new LinkedHashMap<>();
 
 		hashMap1.put(102,"Rana");
 		hashMap1.put(101,"Mik");

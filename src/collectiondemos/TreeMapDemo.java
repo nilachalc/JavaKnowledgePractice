@@ -8,8 +8,8 @@ import java.util.TreeMap;
 public class TreeMapDemo {
 
 	public static void main(String[] args) {
-		Map<Integer, String> hashMap1 = new TreeMap<Integer, String>();
-		Map<Integer, String> hashMap2 = new TreeMap<Integer, String>();
+		Map<Integer, String> hashMap1 = new TreeMap<>();
+		Map<Integer, String> hashMap2 = new TreeMap<>();
 
 		hashMap1.put(102,"Rana");
 		hashMap1.put(101,"Mik");

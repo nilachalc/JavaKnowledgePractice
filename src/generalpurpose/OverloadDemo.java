@@ -12,6 +12,6 @@ public class OverloadDemo {
 		demo.show(1);
 		//demo.show(1, 1.78);
 		demo.show(1.56);
-		//demo.show('C');
+		demo.show('C');
 	}
 }

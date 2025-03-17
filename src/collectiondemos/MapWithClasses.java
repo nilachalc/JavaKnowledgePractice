@@ -12,7 +12,7 @@ public class MapWithClasses {
 
 	public static void main(String[] args) {
 		// Test with HashMap
-		Map<Cat, Integer> hashMap = new HashMap<Cat, Integer>();
+		Map<Cat, Integer> hashMap = new HashMap<>();
 		Cat c1 = new Cat(10, "red");
 		Cat c2 = new Cat(5, "black");
 		Cat c3 = new Cat(8, "white");
@@ -29,7 +29,7 @@ public class MapWithClasses {
 		}
 		
 		// Test with LinkedHashMap
-		Map<Cat, Integer> linkedHashMap = new LinkedHashMap<Cat, Integer>();
+		Map<Cat, Integer> linkedHashMap = new LinkedHashMap<>();
 		Cat c5 = new Cat(10, "red");
 		Cat c6 = new Cat(5, "black");
 		Cat c7 = new Cat(8, "white");
@@ -47,11 +47,11 @@ public class MapWithClasses {
 		}
 		
 		// Test with TreeMap
-		Map<Cat, Integer> treeMap = new TreeMap<Cat, Integer>();
+		Map<Cat, Integer> treeMap = new TreeMap<>();
 		Cat c11 = new Cat(10, "red");
 		Cat c22 = new Cat(5, "black");
 		Cat c33 = new Cat(8, "white");
-		Cat c44 = new Cat(8, "white");// Cat c44 = new Cat(12, "white"); Because now Different sizes make different dogs!
+		Cat c44 = new Cat(8, "white"); // Because TreeMap uses compareTo method to compare and sort the objects, where as equality of the objects are being determined by equalsTo method.
 		treeMap.put(c11, 10);
 		treeMap.put(c22, 15);
 		treeMap.put(c33, 5);

@@ -37,9 +37,13 @@ public class StringTest {
 		 String str2 = str1.intern();
 
 		 if (str1 == str2) {
-		   System.out.println("str1 and str2 are the same object");
+			 System.out.println(str1);
+			 System.out.println(str2);
+			 System.out.println("str1 and str2 are the same object");
 		 } else {
-		   System.out.println("str1 and str2 are different objects");
+			 System.out.println(str1);
+			 System.out.println(str2);
+			 System.out.println("str1 and str2 are different objects");
 		 }
 	 }
 }

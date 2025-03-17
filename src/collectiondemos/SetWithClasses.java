@@ -13,7 +13,7 @@ public class SetWithClasses {
 
 	public static void main(String[] args) {
 		// Test with HashSet<Dog>
-		Set<Dog> dset = new HashSet<Dog>();
+		Set<Dog> dset = new HashSet<>();
 		
 		dset.add(new Dog(2));
 		dset.add(new Dog(1));
@@ -28,7 +28,7 @@ public class SetWithClasses {
 		
 		System.out.println();
 		// Test with LinkedHashSet<Dog>
-		Set<Dog> dset1 = new LinkedHashSet<Dog>();
+		Set<Dog> dset1 = new LinkedHashSet<>();
 		
 		dset1.add(new Dog(2));
 		dset1.add(new Dog(1));
@@ -43,7 +43,7 @@ public class SetWithClasses {
 		
 		System.out.println();
 		// Test with TreeSet		
-		Set<Dog> dset2 = new TreeSet<Dog>();
+		Set<Dog> dset2 = new TreeSet<>();
 		
 		dset2.add(new Dog(2));
 		dset2.add(new Dog(1));
@@ -60,9 +60,9 @@ public class SetWithClasses {
 		
 		// Performance Testing
 		Random r = new Random();
-		HashSet<Dog> hashSet = new HashSet<Dog>();
-		TreeSet<Dog> treeSet = new TreeSet<Dog>();
-		LinkedHashSet<Dog> linkedSet = new LinkedHashSet<Dog>();
+		HashSet<Dog> hashSet = new HashSet<>();
+		TreeSet<Dog> treeSet = new TreeSet<>();
+		LinkedHashSet<Dog> linkedSet = new LinkedHashSet<>();
 		// start time
 		long startTime = System.nanoTime();
 		for (int i = 0; i < 1000; i++) {

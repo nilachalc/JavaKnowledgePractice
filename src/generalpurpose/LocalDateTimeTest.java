@@ -13,7 +13,7 @@ public class LocalDateTimeTest {
 		Period age = Period.between(today, bDay);
 		System.out.println(age);
 		
-		ZonedDateTime nowKolkata = ZonedDateTime.now();
+		ZonedDateTime nowKolkata = ZonedDateTime.now(ZoneId.of("Asia/Kolkata"));
 		ZonedDateTime nowNewYork = ZonedDateTime.now(ZoneId.of("America/New_York"));
 		System.out.println(nowKolkata);
 		System.out.println(nowNewYork);
