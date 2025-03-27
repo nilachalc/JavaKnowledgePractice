@@ -42,7 +42,7 @@ public class FunctionalProgrammingBasic {
 										  .map(t2 -> List.of(t1, t2))) // Creating the tuple list here
 										  .filter(li -> !li.get(0).equals(li.get(1)))  // applying filter after tuple as the filter logic is on List of String element
 										  .collect(Collectors.toList()));
-		List<String> strings = new ArrayList<String>(newTopics);
+		List<String> strings = new ArrayList<>(newTopics);
 		strings.replaceAll(str -> str.toLowerCase());
 		strings.removeIf(s -> s.length() < 5);
 		strings.forEach(s -> System.out.println(s));
